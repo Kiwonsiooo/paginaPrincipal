@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+
+    background: linear-gradient(to top, #020024, #090979, #00d4ff);
+}
+
+section {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+section .hijos {
+    width: 200px;
+    height: 200px;
+}
+
+section .uno {
+    transform: translate(30px, 50px);
+}
+
+section .dos {
+    transform: rotate(90deg);
+}
+
+section .tres {
+    transform: scale(1);
+}
+
+section .cuatro {
+    transform: skew(10deg);
+    box-shadow: -30px -2px 40px #000000aa;
+    border-radius: 100%;
+}
